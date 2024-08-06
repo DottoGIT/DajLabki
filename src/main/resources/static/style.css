@@ -1,0 +1,56 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	margin: 0;
+	background-color: whitesmoke;
+}
+
+#middle_bar {
+	width: 550px;
+	height: 90%;
+	background-color: white;
+	color: black;
+	text-align: center;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	overflow: hidden;
+	position: relative;
+	margin: 10px 20px 30px 40px; /* Przykład użycia marginesów dla #middle_bar */
+}
+
+#header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 5px solid lightgreen;
+}
+
+#header img {
+	max-width: 100%;
+	height: auto;
+	margin-right: 20px;
+}
+
+#middle_bar h2 {
+	margin: 20px;
+}
+
+#middle_bar h3 {
+	margin: 30px;
+}
+
+#logowanie {
+	width: 80%;
+	height: 30px;
+	border-radius: 10px;
+	border: 2px solid lightgreen;
+	padding: 10px 0px 25px 0px;
+	background-color: whitesmoke;
+}
+#logowanie:hover {
+	background-color: lightgreen;
+	color: darkgreen;
+	cursor: pointer;
+}
